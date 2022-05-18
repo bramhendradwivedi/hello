@@ -20,7 +20,7 @@
 
 	<build>
 		<plugins>
-			<plugin>
+			 <plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-clean-plugin</artifactId>
 				<version>3.0.0</version>
@@ -74,7 +74,7 @@
               
 			</plugin>
       
-            <plugin>
+           <!--  <plugin>
               <artifactId>maven-deploy-plugin</artifactId>
               <executions>
                 <execution>
@@ -85,7 +85,7 @@
                   </goals>
                 </execution>
               </executions>
-          </plugin>
+          </plugin> -->
 		</plugins>
 	</build>
 
@@ -111,7 +111,7 @@
 			<url>https://maven.anypoint.mulesoft.com/api/v3/maven</url>
 			<layout>default</layout>
 		</repository>
-		<repository>
+		 <repository>
 			<id>mulesoft-releases</id>
 			<name>MuleSoft Releases Repository</name>
 			<url>https://repository.mulesoft.org/releases/</url>
@@ -119,7 +119,7 @@
 		</repository>
 	</repositories>
 
-	<pluginRepositories>
+	 <pluginRepositories>
 		<pluginRepository>
 			<id>mulesoft-releases</id>
 			<name>MuleSoft Releases Repository</name>
@@ -129,6 +129,6 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</pluginRepository>
-	</pluginRepositories>
+	</pluginRepositories> 
 
 </project>
